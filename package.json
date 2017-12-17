@@ -7,6 +7,10 @@
   "cacheDirectories": [
     "node_modules"
   ],
+  "scripts": {
+    "registry": "docker-compose -f src/main/docker/jhipster-registry.yml up",
+    "start" : "yarn start"
+  },
   "dependencies": {
     "@angular/common": "5.1.0",
     "@angular/compiler": "5.1.0",
